@@ -22,7 +22,7 @@
         grid-template-columns: 4em 10em;
         grid-template-rows: 2em 2em;
         background-color: #fff;
-        color: #444;        
+        color: #333333;        
     }
 
     .name {
