@@ -16,6 +16,10 @@
 {/if}
 
 <style>
+    div {
+        font-size: 2em;
+    }
+
     .name {
         font-weight: bold;
     }

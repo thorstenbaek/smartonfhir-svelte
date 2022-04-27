@@ -2,8 +2,16 @@
     export let patient;
 </script>
 
-{#if patient.gender == "male"}
-    🤵
-{:else}
-    🙎‍♀️
-{/if}
+<div>
+    {#if patient.gender == "male"}
+        🤵
+    {:else}
+        🙎‍♀️
+    {/if}
+</div>
+
+<style>
+    div {
+        font-size: 6em;
+    }
+</style>

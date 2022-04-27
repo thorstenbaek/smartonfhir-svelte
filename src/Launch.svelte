@@ -9,7 +9,7 @@
 			redirectUri: './app',			
 			//iss:"https://vt-fi-a-mb.dips.local/DIPS-WebAPI/HL7/fhir-r4",
             iss:"https://vt-selecta-a.dips.local/DIPS-WebAPI/HL7/fhir-r4",
-            launch: "cdp2008903:123:456"
+            launch: "cdp2008909:123:456"
 		});
     })
 </script>
