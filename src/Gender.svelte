@@ -1,17 +1,9 @@
 <script>
-    export let gender;
+    export let patient;
 </script>
 
-{#if gender=="female"}
-    <div class="symbol">♀</div>
+{#if patient.gender == "male"}
+    🤵
 {:else}
-    <div class="symbol">♂</div>
+    🙎‍♀️
 {/if}
-
-<style>
-    .symbol {
-        font-size: 3em;
-        font-weight: bold;
-        text-align: center;
-    }
-</style>
