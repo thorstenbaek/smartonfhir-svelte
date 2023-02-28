@@ -59,8 +59,9 @@ module.exports = {
 	],
 	devtool: prod ? false : 'source-map',
 	devServer: {
+		server: 'https',
 		hot: true,
 		historyApiFallback: true,
-		index: 'index.html'
+		static: 'public/'
 	}
 };

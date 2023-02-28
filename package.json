@@ -9,11 +9,11 @@
     "svelte-loader": "^3.0.0",
     "webpack": "^5.16.0",
     "webpack-cli": "^4.4.0",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^4.11.1"
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
-    "dev": "webpack serve --content-base public"
+    "dev": "webpack serve"
   },
   "dependencies": {
     "fhirclient": "^2.4.0",
